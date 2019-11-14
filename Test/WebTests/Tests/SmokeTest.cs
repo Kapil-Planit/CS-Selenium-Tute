@@ -12,10 +12,9 @@ namespace SeleniumFirst.SampleTest
 {
     public class SmokeTest
     {
-        public void Setup()
-        {
-                
-        }
+             
+        // TODO: Create WebDriver and configure it ONCE per test class
+        
         [Fact(DisplayName = "Selenium Jupiter Toys Feedback test")]
         public void JupiterToysSearch()
         {
